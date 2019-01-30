@@ -363,9 +363,13 @@ public class AddBlock : MonoBehaviour
         int[,] matrix;
 
         if (Mat == null)
+        {
             matrix = StaticVars.boxesValues;
+        }
         else
+        {
             matrix = Mat;
+        }
 
         if (i > 0 && j > 0)
         {
