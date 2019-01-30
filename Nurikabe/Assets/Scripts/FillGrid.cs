@@ -15,10 +15,6 @@ public class FillGrid : MonoBehaviour {
         fillWithBasicRules();
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
     public void fillWithNumbers()
     {
         boxesValues[0, 4] = 2;
