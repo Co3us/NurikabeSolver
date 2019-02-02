@@ -20,6 +20,8 @@ Then pressing the play button at the top-center of the window is all you need to
 
 To set your own nurikabe puzzle you may add a .txt file following the syntax of the test files which are under Nurikabe/Assets/TestFiles (first row is number of rows and columns, subsequent rows are location of islands and size of islands). The text file than needs to be dragged to the place of Grid File component of Main script attached to the Manager object (which you find under scene hierarchy) - in other words replace the test3 file.
 
+![](demo.gif)
+
 ### Prerequisites
 
 The Unity version I was using is 2018.2.11f1 Personal  but the only thing that was used was the UI components so I thnik it should work in most of the newer versions.
